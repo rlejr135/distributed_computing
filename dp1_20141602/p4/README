@@ -1,0 +1,16 @@
+In prefix_scan.c, I used MPI_Scan
+
+In prefix_snd_rcv.c, I used only MPI_Send and MPI_Recv.
+
+
+at first of that code, you can see '#define ARRAYNUM ###'
+
+If you want, change ###. 
+
+
+
+******* execute ***********
+
+./mpiscan.sh -> MPI_Scan program execute.
+
+./sndrcv.sh -> only send, recv used program execute.

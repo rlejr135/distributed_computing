@@ -1,0 +1,45 @@
+inout directory -> input ppm and output ppm is here.
+
+
+if you want change example ppm file.
+
+move your ppm file to inout directory and change name to "input.ppm"
+then, execute code.
+
+output name is "output_/problem/_/sequential or parallel/.ppm(pgm)"
+
+
+ex) output_gray_par.pgm
+	output_smooth_seq.ppm
+
+
+ppm_example directory - > provided example
+
+
+i use ppm viewer at window. IrfanView 64
+
+
+
+******************* execute ************************
+
+If you want each code.
+
+./flip_seq.sh
+./flip_par.sh
+./gray_seq.sh
+./gray_par.sh
+./smooth_seq.sh
+./smooth_par.sh
+
+
+flip, gray, smooth mean each problem (a, b, c)
+
+seq means it is sequential.
+par means it used mpi.
+
+
+
+If you want execute all code
+
+./run_seq.sh 
+./run_par.sh
