@@ -1,0 +1,7 @@
+1. typing "make -f Makefile.cal"
+2. typing "./cal_server"
+3. use another terminal, typing "./cal_client localhost"
+4. In cal_client, typing your expression ex)"2+3*5"
+
+
+If you want make clean, typing "make clean -f Makefile.cal"

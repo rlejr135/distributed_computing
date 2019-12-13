@@ -12,11 +12,6 @@ addition_1_svc(struct two_in *argp, struct svc_req *rqstp)
 	static int  result;
 
 	result = argp->a + argp->b;
-
-	/*
-	 * insert server code here
-	 */
-
 	return &result;
 }
 
@@ -26,10 +21,6 @@ subtraction_1_svc(struct two_in *argp, struct svc_req *rqstp)
 	static int  result;
 
 	result = argp->a - argp->b;
-	/*
-	 * insert server code here
-	 */
-
 	return &result;
 }
 
@@ -39,10 +30,6 @@ multiplication_1_svc(struct two_in *argp, struct svc_req *rqstp)
 	static int  result;
 
 	result = argp->a * argp->b;
-	/*
-	 * insert server code here
-	 */
-
 	return &result;
 }
 
@@ -52,9 +39,5 @@ division_1_svc(struct two_in *argp, struct svc_req *rqstp)
 	static int  result;
 
 	result = argp->a / argp->b;
-	/*
-	 * insert server code here
-	 */
-
 	return &result;
 }

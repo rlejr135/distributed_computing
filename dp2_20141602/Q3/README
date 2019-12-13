@@ -1,0 +1,23 @@
+1. typing "make"
+2. ./server [portnum] [num of threads]
+3. ./client [portnum] [num of threads] [read filename] [loop count]
+
+in read filename, use "test1.html", "test2.html", "test3.html".
+
+test1 is small, test2 is middle, test3 is large.
+
+
+
+make clean to clean file
+
+
+
+*******************************
+
+Sometimes you can see failure msg because of cspro server problem.
+Please change port num and try again.
+
+If client were stop when "get [filename]'s data...."
+Please ctrl + c and try again.
+
+******************************

@@ -51,7 +51,7 @@ cal_1(char *host)
 #endif	/* DEBUG */
 
 
-	char exp[256] = "2*3+6/2-4";
+	char exp[256];
 	char pf[256];
 	
 	

@@ -1,0 +1,13 @@
+1. typing "./make.sh"
+2. typing "./run.sh"
+
+
+If you want to run program each,
+
+   ./mylock [threadnum]
+   ./rwlock [threadnum]
+
+
+
+   rwlock -> sample code
+   mylock -> Q2 code
